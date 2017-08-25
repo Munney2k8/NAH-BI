@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>false</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>All update emails will be added in the work notes</description>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">target_table=x_noahr_nah_bi_request^EQ<item endquery="false" field="target_table" goto="false" newquery="false" operator="=" or="false" value="x_noahr_nah_bi_request"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>Update NAH BI Request</name>
+        <order>70</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[gs.error('****** is in inbound action email.subject.toLowerCase.indexOf(approve) is {0}', email.subject.indexOf('Approve'));
+gs.include('global.ProcessApproval');
+
+if (current.getTableName() == "x_noahr_nah_bi_request") {
+	var bodyText = email.body_text;
+	if (!bodyText)
+		bodyText = email.body_html;
+	current.work_notes = "Reply from: " + email.origemail + "\n\n" + email.subject + "\n\n" + bodyText;	
+	
+	if (email.subject.indexOf('approve') || email.subject.indexOf('reject') != -1){
+		var pa = new ProcessApproval();
+		pa.processApproval(current, email);
+	}
+	
+	current.update();
+}]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-03-13 16:41:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>4cfae12c4f2db2004a86b47f0210c790</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Update NAH BI Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+        <sys_update_name>sysevent_in_email_action_4cfae12c4f2db2004a86b47f0210c790</sys_update_name>
+        <sys_updated_by>dc28479</sys_updated_by>
+        <sys_updated_on>2017-04-06 17:28:27</sys_updated_on>
+        <table>x_noahr_nah_bi_request</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>start_date</field>
+        <global>true</global>
+        <messages/>
+        <name>Set next run date - initial</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+	//check to see if Next run date already has a value, if so confirm the user would like to change the Next run date to the new start date. If there is no Next run date then go ahead and set the Next run date to the start date.
+	
+	if (newValue && g_form.getValue('next_run_date') == ''){
+		g_form.setValue('next_run_date', newValue);
+		return;
+	}
+	
+	if (newValue && g_form.getValue('next_run_date') != '') {
+		var changeValue = confirm('This will change the Next run date to ' + newValue + ' are you sure you want to make this change?');
+		
+		if (changeValue) 
+			g_form.setValue('next_run_date', newValue);
+	
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-04-12 17:50:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>15495cd24f8aba404a86b47f0210c76a</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Set next run date - initial</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+        <sys_update_name>sys_script_client_15495cd24f8aba404a86b47f0210c76a</sys_update_name>
+        <sys_updated_by>dc28479</sys_updated_by>
+        <sys_updated_on>2017-08-08 16:38:03</sys_updated_on>
+        <table>x_noahr_nah_bi_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

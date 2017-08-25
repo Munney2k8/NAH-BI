@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>NAH BI</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-03-13 16:40:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>58ca212c4f2db2004a86b47f0210c76b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NAH BI</sys_name>
+        <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+        <sys_update_name>sys_properties_category_58ca212c4f2db2004a86b47f0210c76b</sys_update_name>
+        <sys_updated_by>dc28479</sys_updated_by>
+        <sys_updated_on>2017-03-13 16:40:15</sys_updated_on>
+        <title><![CDATA[<p><b>Properties for NAH BI</b></p>]]></title>
+    </sys_properties_category>
+</record_update>

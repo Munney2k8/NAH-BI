@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Department" max_length="40" name="x_noahr_nah_bi_department" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Department description" max_length="1000" name="department_description" type="string"/>
+        <index name="index">
+            <element name="department_description"/>
+        </index>
+    </element>
+</database>

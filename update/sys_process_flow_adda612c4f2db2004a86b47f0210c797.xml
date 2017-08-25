@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition table="x_noahr_nah_bi_request">state=10^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="10"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description><![CDATA[<p>Ready Condition for NAH BI Request. </p>]]></description>
+        <label>Ready</label>
+        <name>Ready</name>
+        <order>30</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-03-13 16:40:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>adda612c4f2db2004a86b47f0210c797</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Ready</sys_name>
+        <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+        <sys_update_name>sys_process_flow_adda612c4f2db2004a86b47f0210c797</sys_update_name>
+        <sys_updated_by>dc28479</sys_updated_by>
+        <sys_updated_on>2017-04-06 18:26:06</sys_updated_on>
+        <table>x_noahr_nah_bi_request</table>
+        <u_view_condition/>
+    </sys_process_flow>
+</record_update>

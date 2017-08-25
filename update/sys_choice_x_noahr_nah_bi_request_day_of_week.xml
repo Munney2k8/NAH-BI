@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="day_of_week" table="x_noahr_nah_bi_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>day_of_week</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monday</label>
+            <language>en</language>
+            <name>x_noahr_nah_bi_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-07 21:02:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1d8823734f9c83404a86b47f0210c7c3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-07 21:03:26</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>day_of_week</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tuesday</label>
+            <language>en</language>
+            <name>x_noahr_nah_bi_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-07 21:02:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>198867bb4f9c83404a86b47f0210c77e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-07 21:03:27</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>day_of_week</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wednesday</label>
+            <language>en</language>
+            <name>x_noahr_nah_bi_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-07 21:02:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1d8867bb4f9c83404a86b47f0210c79a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-07 21:03:29</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>day_of_week</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Thursday</label>
+            <language>en</language>
+            <name>x_noahr_nah_bi_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-07 21:02:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>118867bb4f9c83404a86b47f0210c7b7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-07 21:03:32</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>day_of_week</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Friday</label>
+            <language>en</language>
+            <name>x_noahr_nah_bi_request</name>
+            <sequence>4</sequence>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-07 21:02:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>158867bb4f9c83404a86b47f0210c7d3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-07 21:03:35</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>day_of_week</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Saturday</label>
+            <language>en</language>
+            <name>x_noahr_nah_bi_request</name>
+            <sequence>5</sequence>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-07 21:02:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>298867bb4f9c83404a86b47f0210c7ef</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-07 21:03:36</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>day_of_week</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sunday</label>
+            <language>en</language>
+            <name>x_noahr_nah_bi_request</name>
+            <sequence>6</sequence>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-07 21:02:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2d88a7bb4f9c83404a86b47f0210c70b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-07 22:41:56</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>day_of_week</element>
+            <name>x_noahr_nah_bi_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-07 21:02:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d18867bb4f9c83404a86b47f0210c77e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>day_of_week</sys_name>
+            <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+            <sys_update_name>sys_choice_x_noahr_nah_bi_request_day_of_week</sys_update_name>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-07 21:02:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

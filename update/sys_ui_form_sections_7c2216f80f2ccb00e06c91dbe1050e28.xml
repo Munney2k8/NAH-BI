@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="7c2216f80f2ccb00e06c91dbe1050e28" sys_domain="global" table="x_noahr_nah_bi_reports" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-10 17:19:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>382216f80f2ccb00e06c91dbe1050e29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_noahr_nah_bi_reports" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">7c2216f80f2ccb00e06c91dbe1050e28</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-10 17:19:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-10 17:19:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>342216f80f2ccb00e06c91dbe1050e2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_noahr_nah_bi_reports" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">7c2216f80f2ccb00e06c91dbe1050e28</sys_ui_form>
+            <sys_ui_section caption="Metrics &amp; References " display_value="Metrics &amp; References " name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">702216f80f2ccb00e06c91dbe1050e2a</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-10 17:19:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-10 17:53:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6cf9523c0f2ccb00e06c91dbe1050e9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_noahr_nah_bi_reports" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">7c2216f80f2ccb00e06c91dbe1050e28</sys_ui_form>
+            <sys_ui_section caption="Dates and Recurrence" display_value="Dates and Recurrence" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">acf9523c0f2ccb00e06c91dbe1050e9b</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-10 17:53:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_noahr_nah_bi_reports</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-10 17:19:10</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>7c2216f80f2ccb00e06c91dbe1050e28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_noahr_nah_bi_reports</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7c2216f80f2ccb00e06c91dbe1050e28</sys_update_name>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-10 17:19:10</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

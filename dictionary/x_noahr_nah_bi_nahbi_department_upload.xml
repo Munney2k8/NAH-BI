@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="nahbi department upload" max_length="40" name="x_noahr_nah_bi_nahbi_department_upload" type="collection">
+        <element attributes="import_attribute_name=Dept" label="Dept" max_length="40" name="u_dept" type="integer"/>
+        <element attributes="import_attribute_name=Dept Description,edge_encryption_enabled=true" label="Dept Description" max_length="40" name="u_dept_description" type="string"/>
+        <element attributes="import_attribute_name=Director,edge_encryption_enabled=true" label="Director" max_length="40" name="u_director" type="string"/>
+        <element attributes="import_attribute_name=VP,edge_encryption_enabled=true" label="VP" max_length="40" name="u_vp" type="string"/>
+    </element>
+</database>

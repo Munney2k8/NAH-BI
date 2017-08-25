@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sm_config">
+    <sm_config action="INSERT_OR_UPDATE">
+        <accept_reject>false</accept_reject>
+        <active>true</active>
+        <admin_role display_value="x_noahr_nah_bi_admin" name="x_noahr_nah_bi_admin">259aade84f2db2004a86b47f0210c7d4</admin_role>
+        <agent_role display_value="x_noahr_nah_bi_agent" name="x_noahr_nah_bi_agent">6d9aade84f2db2004a86b47f0210c7d1</agent_role>
+        <app_name>nah_bi</app_name>
+        <approval>false</approval>
+        <approval_workflow display_value="Approval Workflow for SM">da95b573d7322100bbc783e80e610360</approval_workflow>
+        <approver_role display_value="x_noahr_nah_bi_approver_user" name="x_noahr_nah_bi_approver_user">a99aade84f2db2004a86b47f0210c7d2</approver_role>
+        <associated_task_tables/>
+        <auto_dispatch>false</auto_dispatch>
+        <automate_state_flows>false</automate_state_flows>
+        <basic_role display_value="x_noahr_nah_bi_basic" name="x_noahr_nah_bi_basic">719aade84f2db2004a86b47f0210c7d5</basic_role>
+        <catalog display_value="">18da612c4f2db2004a86b47f0210c772</catalog>
+        <created_with_version>Helsinki: 11-08-2016_1607</created_with_version>
+        <disabled_processes/>
+        <dispatch_group_type display_value="nah_bi_dispatch">51aaede84f2db2004a86b47f0210c7ab</dispatch_group_type>
+        <dispatch_queue>false</dispatch_queue>
+        <dispatcher_role display_value="x_noahr_nah_bi_dispatcher" name="x_noahr_nah_bi_dispatcher">bd9aade84f2db2004a86b47f0210c7d5</dispatcher_role>
+        <follow_the_sun_priority>{value:,type:,display:}</follow_the_sun_priority>
+        <geolocation_maps>false</geolocation_maps>
+        <inbound_email>false</inbound_email>
+        <initiator_role display_value="x_noahr_nah_bi_initiator" name="x_noahr_nah_bi_initiator">e59aade84f2db2004a86b47f0210c7d3</initiator_role>
+        <kbase display_value="NAH BI Knowledge">3cda612c4f2db2004a86b47f0210c78f</kbase>
+        <knowledge_base>true</knowledge_base>
+        <limit_by_location>false</limit_by_location>
+        <main_model_category display_value="NAH BI Request Template">a8ca212c4f2db2004a86b47f0210c770</main_model_category>
+        <main_model_table>x_noahr_nah_bi_request_template</main_model_table>
+        <main_state_flow_table>x_noahr_nah_bi_sf_request</main_state_flow_table>
+        <main_table>x_noahr_nah_bi_request</main_table>
+        <managed_docs>true</managed_docs>
+        <mandatory_work_notes>true</mandatory_work_notes>
+        <name>NAH BI</name>
+        <part_requirement>false</part_requirement>
+        <pdf_order_summary>false</pdf_order_summary>
+        <property_prefix>x_noahr_nah_bi</property_prefix>
+        <qualification>false</qualification>
+        <qualification_group_type/>
+        <qualifier_role/>
+        <read_role display_value="x_noahr_nah_bi_read" name="x_noahr_nah_bi_read">f99aade84f2db2004a86b47f0210c7d6</read_role>
+        <request_dispatch_method>manual</request_dispatch_method>
+        <request_dispatch_workflow display_value="Request Assignment Workflow for SM">879cca02d7100200e5eb83e80e6103fc</request_dispatch_workflow>
+        <request_driven>true</request_driven>
+        <rollup_work_notes>true</rollup_work_notes>
+        <service_catalog>true</service_catalog>
+        <signature_capture>false</signature_capture>
+        <surveys/>
+        <sys_class_name>sm_config</sys_class_name>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-03-13 16:40:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0deae12c4f2db2004a86b47f0210c741</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>nah_bi</sys_name>
+        <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+        <sys_update_name>sm_config_0deae12c4f2db2004a86b47f0210c741</sys_update_name>
+        <sys_updated_by>dc28479</sys_updated_by>
+        <sys_updated_on>2017-03-13 16:41:03</sys_updated_on>
+        <task_activities>false</task_activities>
+        <task_dispatch_method>manual</task_dispatch_method>
+        <task_dispatch_workflow display_value="Assignment Workflow for SM">e1865971d7132100bbc783e80e610365</task_dispatch_workflow>
+        <task_model_category display_value="NAH BI Task Template">2cca212c4f2db2004a86b47f0210c770</task_model_category>
+        <task_model_table>x_noahr_nah_bi_task_template</task_model_table>
+        <task_state_flow_table>x_noahr_nah_bi_sf_task</task_state_flow_table>
+        <task_table>x_noahr_nah_bi_task</task_table>
+        <task_work_group_type/>
+        <templates_to_catalog>true</templates_to_catalog>
+        <time_card>false</time_card>
+        <track_travel>false</track_travel>
+        <use_consistent_assignment>false</use_consistent_assignment>
+        <use_follow_the_sun>true</use_follow_the_sun>
+        <use_location>false</use_location>
+        <use_schedule>false</use_schedule>
+        <use_sf>false</use_sf>
+        <use_skill>all</use_skill>
+        <use_timezone>true</use_timezone>
+        <user_created>true</user_created>
+        <vendor_group_type display_value="nah_bi_vendor">d1aaede84f2db2004a86b47f0210c7ab</vendor_group_type>
+        <work_group_type display_value="nah_bi">ddaaede84f2db2004a86b47f0210c7aa</work_group_type>
+    </sm_config>
+</record_update>

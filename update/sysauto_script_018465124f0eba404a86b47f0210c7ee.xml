@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>NAH BI - Daily Check of Recurring Jobs</name>
+        <run_as display_value="Derek Culbertson">a721c144f0f4b000e4310d34b264d4a2</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-04-12 23:13:45</run_start>
+        <run_time>1970-01-01 11:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var NDT = new global.NAHDateTimeUtils();
+var gr = new GlideRecord('x_noahr_nah_bi_request');
+
+gr.addQuery('recurring', true);
+gr.query();
+while(gr.next()) {
+	
+	gs.error('***** gr number is {0}', gr.number);
+	
+	if (NDT.nahBIShouldCreateRecurringTask(gr)){
+		gr.next_run_date = NDT.setNextRunDate(gr);
+		
+		if (gr.start_recurring == false)
+			gr.start_recurring = true;
+		
+		gr.update();
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-04-12 23:17:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>018465124f0eba404a86b47f0210c7ee</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>NAH BI - Daily Check of Recurring Jobs</sys_name>
+        <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+        <sys_update_name>sysauto_script_018465124f0eba404a86b47f0210c7ee</sys_update_name>
+        <sys_updated_by>dc28479</sys_updated_by>
+        <sys_updated_on>2017-08-08 16:46:50</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

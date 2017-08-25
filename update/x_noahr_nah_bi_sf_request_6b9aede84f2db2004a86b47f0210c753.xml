@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_noahr_nah_bi_sf_request">
+    <x_noahr_nah_bi_sf_request action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script/>
+        <automatic_string>(!current.assigned_to.nil() || !current.template.nil()) &amp;&amp; (new sn_sm.SMConfiguration()).isEnabled(current, "approval", false)</automatic_string>
+        <business_rule display_value="Ready for work (approval on)">ab9aede84f2db2004a86b47f0210c753</business_rule>
+        <change_client_script/>
+        <client_script/>
+        <comment>NAH BI Request State flow</comment>
+        <derived_from display_value="Ready for work (approval on)">edfeb353df312100dca6a5f59bf263e3</derived_from>
+        <end_text>10</end_text>
+        <ending_state/>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition/>
+        <manual_roles/>
+        <manual_script><![CDATA[action.setRedirectURL(current);]]></manual_script>
+        <manual_string>(new sn_sm.SMConfiguration()).isEnabled(current, "approval", false)</manual_string>
+        <name>Ready for work (approval on)</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010011</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text>13</start_text>
+        <starting_state/>
+        <sys_class_name>x_noahr_nah_bi_sf_request</sys_class_name>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-03-13 16:39:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6b9aede84f2db2004a86b47f0210c753</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Ready for work (approval on)</sys_name>
+        <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+        <sys_update_name>x_noahr_nah_bi_sf_request_6b9aede84f2db2004a86b47f0210c753</sys_update_name>
+        <sys_updated_by>dc28479</sys_updated_by>
+        <sys_updated_on>2017-03-13 16:41:01</sys_updated_on>
+        <table>x_noahr_nah_bi_request</table>
+        <translated_ending_state>Ready</translated_ending_state>
+        <translated_starting_state>Approved</translated_starting_state>
+        <ui_action display_value="Ready for work">ab9aede84f2db2004a86b47f0210c754</ui_action>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </x_noahr_nah_bi_sf_request>
+</record_update>

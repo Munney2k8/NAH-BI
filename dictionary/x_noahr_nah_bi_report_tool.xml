@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Report tool" max_length="40" name="x_noahr_nah_bi_report_tool" type="collection">
+        <element label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+    </element>
+</database>

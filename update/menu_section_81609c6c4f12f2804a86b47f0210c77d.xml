@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="menu_section">
+    <menu_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <contains_menu/>
+        <content_block_menu display_value="NAH BI Home Menu">871b8ce84f12f2804a86b47f0210c761</content_block_menu>
+        <db_left_menu_image/>
+        <db_right_menu_image/>
+        <detail_page display_value="NAH BI - Requests opened by me">c66f4c2c4f12f2804a86b47f0210c720</detail_page>
+        <footer/>
+        <header/>
+        <iframe/>
+        <image/>
+        <image_right/>
+        <logged_on>false</logged_on>
+        <menu_section_color/>
+        <name>My open NAH BI requests</name>
+        <omit_body>false</omit_body>
+        <order>200</order>
+        <roles/>
+        <second_level_text/>
+        <sys_class_name>menu_section</sys_class_name>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-04-19 16:54:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>81609c6c4f12f2804a86b47f0210c77d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My open NAH BI requests</sys_name>
+        <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+        <sys_update_name>menu_section_81609c6c4f12f2804a86b47f0210c77d</sys_update_name>
+        <sys_updated_by>dc28479</sys_updated_by>
+        <sys_updated_on>2017-04-19 16:58:50</sys_updated_on>
+        <tag/>
+        <target>internal</target>
+        <type>content_page</type>
+        <url/>
+    </menu_section>
+    <sys_translated_text action="delete_multiple" query="documentkey=81609c6c4f12f2804a86b47f0210c77d"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>image</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>2132</size_bytes>
+        <size_compressed>2155</size_compressed>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-04-19 16:55:05</sys_created_on>
+        <sys_id>8af09c6c4f12f2804a86b47f0210c77e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dc28479</sys_updated_by>
+        <sys_updated_on>2017-04-19 16:55:05</sys_updated_on>
+        <table_name>ZZ_YYmenu_section</table_name>
+        <table_sys_id>81609c6c4f12f2804a86b47f0210c77d</table_sys_id>
+        <u_cerner>false</u_cerner>
+        <u_send>true</u_send>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="8af09c6c4f12f2804a86b47f0210c77e">8af09c6c4f12f2804a86b47f0210c77e</sys_attachment>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-04-19 16:55:05</sys_created_on>
+        <sys_id>caf09c6c4f12f2804a86b47f0210c77e</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2860</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="8af09c6c4f12f2804a86b47f0210c77e">8af09c6c4f12f2804a86b47f0210c77e</sys_attachment>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-04-19 16:55:05</sys_created_on>
+        <sys_id>4ef09c6c4f12f2804a86b47f0210c77e</sys_id>
+    </sys_attachment_doc>
+</record_update>

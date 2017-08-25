@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="service_area" label="Service area" language="en" table="x_noahr_nah_bi_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>service_area</element>
+            <help/>
+            <hint/>
+            <label>Service area</label>
+            <language>en</language>
+            <name>x_noahr_nah_bi_request</name>
+            <plural>Service areas</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-15 17:51:05</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0569086a4fe40f404a86b47f0210c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Service area</sys_name>
+            <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+            <sys_update_name>sys_documentation_x_noahr_nah_bi_request_service_area_en</sys_update_name>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-15 17:51:05</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

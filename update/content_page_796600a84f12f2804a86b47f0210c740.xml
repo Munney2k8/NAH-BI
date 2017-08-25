@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="content_page" unload_date="2017-08-25 22:19:52">
+    <sys_portal action="delete_multiple" query="page=796600a84f12f2804a86b47f0210c740">
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone10</dropzone>
+                <offset>0</offset>
+                <page display_value="NAH Business Intelligence Home">796600a84f12f2804a86b47f0210c740</page>
+                <summary/>
+                <sys_created_by>dc28479</sys_created_by>
+                <sys_created_on>2017-04-19 16:55:14</sys_created_on>
+                <sys_id>28019c6c4f12f2804a86b47f0210c73c</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>dc28479</sys_updated_by>
+                <sys_updated_on>2017-04-19 16:55:14</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-04-19 09:55:14">28019c6c4f12f2804a86b47f0210c73c</portal_section>
+                        <sys_created_by>dc28479</sys_created_by>
+                        <sys_created_on>2017-04-19 16:55:14</sys_created_on>
+                        <sys_id>2c019c6c4f12f2804a86b47f0210c73c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>dc28479</sys_updated_by>
+                        <sys_updated_on>2017-04-19 16:55:14</sys_updated_on>
+                        <value>com.glide.cms.RenderBlock</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-04-19 09:55:14">28019c6c4f12f2804a86b47f0210c73c</portal_section>
+                        <sys_created_by>dc28479</sys_created_by>
+                        <sys_created_on>2017-04-19 16:55:14</sys_created_on>
+                        <sys_id>64019c6c4f12f2804a86b47f0210c73d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>dc28479</sys_updated_by>
+                        <sys_updated_on>2017-04-19 16:55:14</sys_updated_on>
+                        <value>796600a84f12f2804a86b47f0210c740</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-04-19 09:55:14">28019c6c4f12f2804a86b47f0210c73c</portal_section>
+                        <sys_created_by>dc28479</sys_created_by>
+                        <sys_created_on>2017-04-19 16:55:14</sys_created_on>
+                        <sys_id>68019c6c4f12f2804a86b47f0210c73c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>dc28479</sys_updated_by>
+                        <sys_updated_on>2017-04-19 16:55:14</sys_updated_on>
+                        <value>871b8ce84f12f2804a86b47f0210c761</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2017-04-19 09:55:14">28019c6c4f12f2804a86b47f0210c73c</portal_section>
+                        <sys_created_by>dc28479</sys_created_by>
+                        <sys_created_on>2017-04-19 16:55:14</sys_created_on>
+                        <sys_id>a0019c6c4f12f2804a86b47f0210c73d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>dc28479</sys_updated_by>
+                        <sys_updated_on>2017-04-19 16:55:14</sys_updated_on>
+                        <value>content_block_menu</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-04-19 09:55:14">28019c6c4f12f2804a86b47f0210c73c</portal_section>
+                        <sys_created_by>dc28479</sys_created_by>
+                        <sys_created_on>2017-04-19 16:55:14</sys_created_on>
+                        <sys_id>ec019c6c4f12f2804a86b47f0210c73c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>dc28479</sys_updated_by>
+                        <sys_updated_on>2017-04-19 16:55:14</sys_updated_on>
+                        <value>NAH BI Home Menu</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone100</dropzone>
+                <offset>0</offset>
+                <page display_value="NAH Business Intelligence Home">796600a84f12f2804a86b47f0210c740</page>
+                <summary/>
+                <sys_created_by>dc28479</sys_created_by>
+                <sys_created_on>2017-04-19 16:55:15</sys_created_on>
+                <sys_id>6001d0ac4f12f2804a86b47f0210c7af</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>dc28479</sys_updated_by>
+                <sys_updated_on>2017-04-19 16:55:15</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2017-04-19 09:55:15">6001d0ac4f12f2804a86b47f0210c7af</portal_section>
+                        <sys_created_by>dc28479</sys_created_by>
+                        <sys_created_on>2017-04-19 16:55:15</sys_created_on>
+                        <sys_id>2801d0ac4f12f2804a86b47f0210c7af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>dc28479</sys_updated_by>
+                        <sys_updated_on>2017-04-19 16:55:15</sys_updated_on>
+                        <value>content_block_programmatic</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-04-19 09:55:15">6001d0ac4f12f2804a86b47f0210c7af</portal_section>
+                        <sys_created_by>dc28479</sys_created_by>
+                        <sys_created_on>2017-04-19 16:55:15</sys_created_on>
+                        <sys_id>6401d0ac4f12f2804a86b47f0210c7af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>dc28479</sys_updated_by>
+                        <sys_updated_on>2017-04-19 16:55:15</sys_updated_on>
+                        <value>com.glide.cms.RenderBlock</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-04-19 09:55:15">6001d0ac4f12f2804a86b47f0210c7af</portal_section>
+                        <sys_created_by>dc28479</sys_created_by>
+                        <sys_created_on>2017-04-19 16:55:15</sys_created_on>
+                        <sys_id>a001d0ac4f12f2804a86b47f0210c7af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>dc28479</sys_updated_by>
+                        <sys_updated_on>2017-04-19 16:55:15</sys_updated_on>
+                        <value>7495e89bef130000914304167b225682</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-04-19 09:55:15">6001d0ac4f12f2804a86b47f0210c7af</portal_section>
+                        <sys_created_by>dc28479</sys_created_by>
+                        <sys_created_on>2017-04-19 16:55:15</sys_created_on>
+                        <sys_id>ac01d0ac4f12f2804a86b47f0210c7af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>dc28479</sys_updated_by>
+                        <sys_updated_on>2017-04-19 16:55:15</sys_updated_on>
+                        <value>796600a84f12f2804a86b47f0210c740</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-04-19 09:55:15">6001d0ac4f12f2804a86b47f0210c7af</portal_section>
+                        <sys_created_by>dc28479</sys_created_by>
+                        <sys_created_on>2017-04-19 16:55:15</sys_created_on>
+                        <sys_id>e801d0ac4f12f2804a86b47f0210c7af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>dc28479</sys_updated_by>
+                        <sys_updated_on>2017-04-19 16:55:15</sys_updated_on>
+                        <value>Decorative Bottom Border</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="NAH Business Intelligence Home">796600a84f12f2804a86b47f0210c740</page>
+                <summary/>
+                <sys_created_by>dc28479</sys_created_by>
+                <sys_created_on>2017-04-19 16:55:14</sys_created_on>
+                <sys_id>ec019c6c4f12f2804a86b47f0210c73a</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>dc28479</sys_updated_by>
+                <sys_updated_on>2017-04-19 16:55:14</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-04-19 09:55:14">ec019c6c4f12f2804a86b47f0210c73a</portal_section>
+                        <sys_created_by>dc28479</sys_created_by>
+                        <sys_created_on>2017-04-19 16:55:14</sys_created_on>
+                        <sys_id>20019c6c4f12f2804a86b47f0210c73b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>dc28479</sys_updated_by>
+                        <sys_updated_on>2017-04-19 16:55:14</sys_updated_on>
+                        <value>669780a84f12f2804a86b47f0210c779</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-04-19 09:55:14">ec019c6c4f12f2804a86b47f0210c73a</portal_section>
+                        <sys_created_by>dc28479</sys_created_by>
+                        <sys_created_on>2017-04-19 16:55:14</sys_created_on>
+                        <sys_id>2c019c6c4f12f2804a86b47f0210c73b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>dc28479</sys_updated_by>
+                        <sys_updated_on>2017-04-19 16:55:14</sys_updated_on>
+                        <value>796600a84f12f2804a86b47f0210c740</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-04-19 09:55:14">ec019c6c4f12f2804a86b47f0210c73a</portal_section>
+                        <sys_created_by>dc28479</sys_created_by>
+                        <sys_created_on>2017-04-19 16:55:14</sys_created_on>
+                        <sys_id>68019c6c4f12f2804a86b47f0210c73b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>dc28479</sys_updated_by>
+                        <sys_updated_on>2017-04-19 16:55:14</sys_updated_on>
+                        <value>NAH BI - Header</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2017-04-19 09:55:14">ec019c6c4f12f2804a86b47f0210c73a</portal_section>
+                        <sys_created_by>dc28479</sys_created_by>
+                        <sys_created_on>2017-04-19 16:55:14</sys_created_on>
+                        <sys_id>a4019c6c4f12f2804a86b47f0210c73b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>dc28479</sys_updated_by>
+                        <sys_updated_on>2017-04-19 16:55:14</sys_updated_on>
+                        <value>content_block_header</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-04-19 09:55:14">ec019c6c4f12f2804a86b47f0210c73a</portal_section>
+                        <sys_created_by>dc28479</sys_created_by>
+                        <sys_created_on>2017-04-19 16:55:14</sys_created_on>
+                        <sys_id>e0019c6c4f12f2804a86b47f0210c73b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>dc28479</sys_updated_by>
+                        <sys_updated_on>2017-04-19 16:55:14</sys_updated_on>
+                        <value>com.glide.cms.RenderBlock</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal>
+    <content_page action="INSERT_OR_UPDATE">
+        <content_site display_value="NAH BI ESS">bfc504684f12f2804a86b47f0210c704</content_site>
+        <content_theme/>
+        <description/>
+        <frame_buster>false</frame_buster>
+        <layout display_value="CMS 1 Column">67f092fa0a0a0b420026133b8feff1c2</layout>
+        <model_id/>
+        <model_table/>
+        <name>NAH BI - Home</name>
+        <order/>
+        <parent_page/>
+        <read_roles/>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>content_page</sys_class_name>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-04-19 16:12:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>796600a84f12f2804a86b47f0210c740</sys_id>
+        <sys_mod_count>53</sys_mod_count>
+        <sys_name>NAH BI - Home</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+        <sys_update_name>content_page_796600a84f12f2804a86b47f0210c740</sys_update_name>
+        <sys_updated_by>dc28479</sys_updated_by>
+        <sys_updated_on>2017-04-19 16:55:15</sys_updated_on>
+        <title>NAH Business Intelligence Home</title>
+        <url_suffix>bi_home</url_suffix>
+        <user/>
+        <view/>
+        <workflow_state>published</workflow_state>
+    </content_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=796600a84f12f2804a86b47f0210c740"/>
+</record_update>

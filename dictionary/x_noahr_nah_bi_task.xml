@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="sm_task" label="Nah Bi Task" max_length="40" name="x_noahr_nah_bi_task" sizeclass="3582" type="collection">
+        <element default="javascript:current.parent" label="BI request" max_length="32" name="bi_request" reference="x_noahr_nah_bi_request" type="reference" use_dynamic_default="true"/>
+        <element label="Converted from" max_length="32" name="converted_from" reference="sc_task" type="reference"/>
+    </element>
+</database>

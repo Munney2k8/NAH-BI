@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_noahr_nah_bi_task</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_noahr_nah_bi_task">short_descriptionLIKERequirements &amp; Design^assigned_toVALCHANGES^EQ<item endquery="false" field="short_description" goto="false" newquery="false" operator="LIKE" or="false" value="Requirements &amp; Design"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>NAH BI - Assigned To Changes on Req &amp;Des</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	//At this point in the workflow, the assigned to of the BIR should be set to the assigned to of the BIT. 
+	
+	var bir = new GlideRecord('x_noahr_nah_bi_request');
+	
+	bir.get(current.bi_request); // get the BIR record
+	bir.assigned_to = current.assigned_to; // set the BIR assigned to to the current BIT assigned to.
+	bir.update();
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-05-31 16:39:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>10006cce0f03f200e06c91dbe1050e30</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>NAH BI - Assigned To Changes on Req &amp;Des</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+        <sys_update_name>sys_script_10006cce0f03f200e06c91dbe1050e30</sys_update_name>
+        <sys_updated_by>dc28479</sys_updated_by>
+        <sys_updated_on>2017-05-31 17:22:08</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+</record_update>

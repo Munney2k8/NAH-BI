@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Request Information" section_id="73c5c8850f69ba00e06c91dbe1050eee" sys_domain="global" table="x_noahr_nah_bi_task" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bi_request.bi_request_type</element>
+            <position>0</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-06-16 17:53:51</sys_created_on>
+            <sys_id>bcaa0bcf4f9b764000e997411310c71e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_noahr_nah_bi_task" sys_domain="global" view="Default view">73c5c8850f69ba00e06c91dbe1050eee</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-06-16 17:53:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bi_request.report_name</element>
+            <position>1</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-06-16 17:53:51</sys_created_on>
+            <sys_id>30aa0bcf4f9b764000e997411310c71f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_noahr_nah_bi_task" sys_domain="global" view="Default view">73c5c8850f69ba00e06c91dbe1050eee</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-06-16 17:53:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bi_request.reason_intent_outcome</element>
+            <position>2</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-06-16 17:53:51</sys_created_on>
+            <sys_id>b0aa0bcf4f9b764000e997411310c71f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_noahr_nah_bi_task" sys_domain="global" view="Default view">73c5c8850f69ba00e06c91dbe1050eee</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-06-16 17:53:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bi_request.department_director</element>
+            <position>3</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-06-16 17:53:51</sys_created_on>
+            <sys_id>34aa0bcf4f9b764000e997411310c71f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_noahr_nah_bi_task" sys_domain="global" view="Default view">73c5c8850f69ba00e06c91dbe1050eee</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-06-16 17:53:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bi_request.description</element>
+            <position>4</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-06-16 17:53:51</sys_created_on>
+            <sys_id>b4aa0bcf4f9b764000e997411310c71f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_noahr_nah_bi_task" sys_domain="global" view="Default view">73c5c8850f69ba00e06c91dbe1050eee</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-06-16 17:53:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bi_request.requested_modification</element>
+            <position>5</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-06-16 17:53:51</sys_created_on>
+            <sys_id>38aa0bcf4f9b764000e997411310c71f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_noahr_nah_bi_task" sys_domain="global" view="Default view">73c5c8850f69ba00e06c91dbe1050eee</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-06-16 17:53:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bi_request.how_often</element>
+            <position>6</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-06-16 17:53:51</sys_created_on>
+            <sys_id>b8aa0bcf4f9b764000e997411310c71f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_noahr_nah_bi_task" sys_domain="global" view="Default view">73c5c8850f69ba00e06c91dbe1050eee</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-06-16 17:53:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bi_request.comments_and_work_notes</element>
+            <position>7</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-06-16 17:53:51</sys_created_on>
+            <sys_id>3caa0bcf4f9b764000e997411310c71f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_noahr_nah_bi_task" sys_domain="global" view="Default view">73c5c8850f69ba00e06c91dbe1050eee</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-06-16 17:53:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>8</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-06-16 17:53:51</sys_created_on>
+            <sys_id>bcaa0bcf4f9b764000e997411310c71f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">b832d3560a0001c700d781efe21e22f5</sys_ui_formatter>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_noahr_nah_bi_task" sys_domain="global" view="Default view">73c5c8850f69ba00e06c91dbe1050eee</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-06-16 17:53:51</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Request Information</caption>
+            <header>false</header>
+            <name>x_noahr_nah_bi_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-03-14 22:36:11</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>73c5c8850f69ba00e06c91dbe1050eee</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Request Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+            <sys_update_name>sys_ui_section_73c5c8850f69ba00e06c91dbe1050eee</sys_update_name>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-06-16 17:53:51</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="4a9c50a10f488300e06c91dbe1050e7c" sys_domain="global" table="x_noahr_nah_bi_reports" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:44</sys_created_on>
+            <sys_id>b79fbfec4ff443804a86b47f0210c79e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:44</sys_updated_on>
+            <text>Report information</text>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>08afbfec4ff443804a86b47f0210c7e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>servicenow_request_id</element>
+            <position>1</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>8cafbfec4ff443804a86b47f0210c7e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>00afbfec4ff443804a86b47f0210c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>3</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>80afbfec4ff443804a86b47f0210c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>04afbfec4ff443804a86b47f0210c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>b79fbfec4ff443804a86b47f0210c79e</element>
+            <position>5</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>84afbfec4ff443804a86b47f0210c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>6</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>08afbfec4ff443804a86b47f0210c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>7</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>88afbfec4ff443804a86b47f0210c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_by</element>
+            <position>8</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>0cafbfec4ff443804a86b47f0210c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>report_author</element>
+            <position>9</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>8cafbfec4ff443804a86b47f0210c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>00afbfec4ff443804a86b47f0210c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>report_create_date</element>
+            <position>11</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>80afbfec4ff443804a86b47f0210c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>departments</element>
+            <position>12</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>04afbfec4ff443804a86b47f0210c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>84afbfec4ff443804a86b47f0210c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>14</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>08afbfec4ff443804a86b47f0210c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purpose</element>
+            <position>15</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>88afbfec4ff443804a86b47f0210c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>keywords</element>
+            <position>16</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>0cafbfec4ff443804a86b47f0210c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>development_notes</element>
+            <position>17</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-22 16:54:45</sys_created_on>
+            <sys_id>8cafbfec4ff443804a86b47f0210c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_reports" sys_domain="global" view="Default view">4a9c50a10f488300e06c91dbe1050e7c</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-22 16:54:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_noahr_nah_bi_reports</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-07-18 20:09:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>4a9c50a10f488300e06c91dbe1050e7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_noahr_nah_bi_reports</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+            <sys_update_name>sys_ui_section_4a9c50a10f488300e06c91dbe1050e7c</sys_update_name>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-07-18 20:09:39</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

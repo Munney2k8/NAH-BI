@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_noahr_nah_bi_task</basic_apply_to>
+        <basic_query_from>sys_attachment</basic_query_from>
+        <insert_callback/>
+        <name>Related Attachments</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+	
+	var bits = [];
+	
+	var bir = new GlideRecord('x_noahr_nah_bi_request');
+	bir.addQuery('number', parent.bi_request.number);
+	bir.query();
+	
+	if(bir.next()){
+		var bit = new GlideRecord('x_noahr_nah_bi_task');
+		bit.addQuery('bi_request', bir.sys_id);
+		bit.query();
+		while(bit.next()){
+			bits.push(bit.sys_id.toString());
+		}
+	}
+	
+	records = current.addQuery('table_sys_id', parent.bi_request.sys_id);	
+	
+	for(i = 0; i < bits.length; i++) {
+		records.addOrCondition('table_sys_id', bits[i]);	
+	}
+		
+	})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-07-19 16:18:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>826f68f94f0c43004a86b47f0210c76f</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Related Attachments</sys_name>
+        <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+        <sys_update_name>sys_relationship_826f68f94f0c43004a86b47f0210c76f</sys_update_name>
+        <sys_updated_by>dc28479</sys_updated_by>
+        <sys_updated_on>2017-07-19 16:49:06</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=826f68f94f0c43004a86b47f0210c76f"/>
+</record_update>

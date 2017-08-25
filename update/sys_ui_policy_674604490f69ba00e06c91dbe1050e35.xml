@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false/>
+        <script_true><![CDATA[function onCondition() {
+	
+	//set Assigned To mandatory
+	g_form.setMandatory('assigned_to', true);
+	
+	//Set all BI Request fields read only, they should only ever be modified at the request level.
+	//g_form.setReadonly('bi_request.bi_request_type', true);
+	//g_form.setReadonly('bi_request.report_name', true);
+	//g_form.setReadonly('bi_request.reason_intent_outcome', true);
+	//g_form.setReadonly('bi_request.department_director', true);
+	//g_form.setReadonly('bi_request.description', true);
+	//g_form.setReadonly('bi_request.requested_modification', true);
+	//g_form.setReadonly('bi_request.how_often', true);
+	//g_form.setReadonly('bi_request.internal_request_type', true);
+	
+	//Check to see if the BI Request fields have a value, if they do not have a value, hide them.	
+	if (g_form.getValue('bi_request.bi_request_type') == '')
+		g_form.setDisplay('bi_request.bi_request_type', false);
+	
+	if (g_form.getValue('bi_request.report_name') == '')
+		g_form.setDisplay('bi_request.report_name', false);
+	
+	if (g_form.getValue('bi_request.reason_intent_outcome') == '')
+		g_form.setDisplay('bi_request.reason_intent_outcome', false);
+	
+	if (g_form.getValue('bi_request.department_director') == '')
+		g_form.setDisplay('bi_request.department_director', false);
+	
+	if (g_form.getValue('bi_request.description') == '')
+		g_form.setDisplay('bi_request.description', false);
+	
+	if (g_form.getValue('bi_request.requested_modification') == '')
+		g_form.setDisplay('bi_request.requested_modification', false);
+	
+	if (g_form.getValue('bi_request.how_often') == '')
+		g_form.setDisplay('bi_request.how_often', false);
+		
+}]]></script_true>
+        <set_values/>
+        <short_description>NAH - BI - Task On Load Set Field Logic</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-03-14 22:39:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>674604490f69ba00e06c91dbe1050e35</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>NAH - BI - Task On Load Set Field Logic</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+        <sys_update_name>sys_ui_policy_674604490f69ba00e06c91dbe1050e35</sys_update_name>
+        <sys_updated_by>dc28479</sys_updated_by>
+        <sys_updated_on>2017-05-05 17:48:52</sys_updated_on>
+        <table>x_noahr_nah_bi_task</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

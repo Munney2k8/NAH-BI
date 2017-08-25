@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="NAH BI">58ca212c4f2db2004a86b47f0210c76b</category>
+        <order>1</order>
+        <property display_value="x_noahr_nah_bi.default.start.time" name="x_noahr_nah_bi.default.start.time">47aaede84f2db2004a86b47f0210c7b2</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-03-13 16:40:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9cca212c4f2db2004a86b47f0210c76b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_noahr_nah_bi.default.start.time.NAH BI</sys_name>
+        <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_9cca212c4f2db2004a86b47f0210c76b</sys_update_name>
+        <sys_updated_by>dc28479</sys_updated_by>
+        <sys_updated_on>2017-03-13 16:40:15</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

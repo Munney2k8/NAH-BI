@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="26ed52f00f6ccb00e06c91dbe1050ebc" sys_domain="global" table="x_noahr_nah_bi_data_source" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-10 18:10:37</sys_created_on>
+            <sys_id>2eed52f00f6ccb00e06c91dbe1050ec1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_data_source" sys_domain="global" view="Default view">26ed52f00f6ccb00e06c91dbe1050ebc</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-10 18:10:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_noahr_nah_bi_data_source</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-08-10 18:10:37</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>26ed52f00f6ccb00e06c91dbe1050ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_noahr_nah_bi_data_source</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+            <sys_update_name>sys_ui_section_26ed52f00f6ccb00e06c91dbe1050ebc</sys_update_name>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-08-10 18:10:37</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

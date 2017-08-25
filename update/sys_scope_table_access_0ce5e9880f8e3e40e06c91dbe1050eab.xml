@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_table_access">
+    <sys_scope_table_access action="INSERT_OR_UPDATE">
+        <create_access>false</create_access>
+        <delete_access>false</delete_access>
+        <example_stack_trace>Default-thread-9
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.getCurrentStackTrace(ScopeAccessProvider.java:234)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.record(ScopeAccessProvider.java:202)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.access$100(ScopeAccessProvider.java:81)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider.recordAccess(ScopeAccessProvider.java:64)
+	com.glide.sys.fencing.dependency.ScopeAccessRecorder.record(ScopeAccessRecorder.java:13)
+	com.glide.script.fencing.access.ScopedTableAccess.hasRightsTo(ScopedTableAccess.java:93)
+	com.glide.script.fencing.access.ScopedTableAccess.hasRightsToTable(ScopedTableAccess.java:40)
+	com.glide.script.fencing.ScopedGlideRecord.getScopeAccessStatusForTable(ScopedGlideRecord.java:229)
+	com.glide.script.fencing.ScopedGlideRecord.checkOperationPermitted(ScopedGlideRecord.java:211)
+	com.glide.script.fencing.ScopedGlideRecord.jsFunction_query(ScopedGlideRecord.java:170)
+	sun.reflect.GeneratedMethodAccessor1391.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.mozilla.javascript.MemberBox.invoke(MemberBox.java:138)
+	org.mozilla.javascript.FunctionObject.doInvoke(FunctionObject.java:637)
+	org.mozilla.javascript.FunctionObject.call(FunctionObject.java:581)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2574)
+	org.mozilla.javascript.Interpreter.interpretLoop(Interpreter.java:1501)
+	org.mozilla.javascript.Interpreter.interpret(Interpreter.java:829)
+	org.mozilla.javascript.InterpretedFunction.exec(InterpretedFunction.java:130)
+	com.glide.script.ScriptEvaluator.execute(ScriptEvaluator.java:236)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:107)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:73)
+	com.glideapp.workflow.WorkflowScopedScriptRunner.evaluateAndSetAnswer(WorkflowScopedScriptRunner.java:218)
+	com.glideapp.workflow.WorkflowScopedScriptRunner.evaluateWithinScope(WorkflowScopedScriptRunner.java:161)
+	com.glideapp.workflow.WorkflowScopedScriptRunner.interpretString(WorkflowScopedScriptRunner.java:109)
+	com.glideapp.workflow.element.providers.RunScriptProvider$1.doEvent(RunScriptProvider.java:62)
+	com.glideapp.workflow.element.ElementActivityProvider.handleEvent(ElementActivityProvider.java:183)
+	com.glideapp.workflow.element.ExecutingActivity.handleEvent(ExecutingActivity.java:55)
+	com.glideapp.workflow.queue.activity.ActivityManager.runActivity(ActivityManager.java:301)
+	com.glideapp.workflow.queue.activity.ActivityManager.runActivities(ActivityManager.java:239)
+	com.glideapp.workflow.queue.activity.ActivityManager.processCommand(ActivityManager.java:152)
+	com.glideapp.workflow.queue.command.ActiveCommandQueueDelegate.signal(ActiveCommandQueueDelegate.java:96)
+	com.glideapp.workflow.queue.command.ActiveCommandQueueDelegate.processCommand(ActiveCommandQueueDelegate.java:61)
+	com.glideapp.workflow.queue.command.CommandManager$CommandQueue.processCommand(CommandManager.java:324)
+	com.glideapp.workflow.queue.command.CommandManager.queue(CommandManager.java:131)
+	com.glideapp.workflow.engine.WorkflowManager.queueFlow(WorkflowManager.java:233)
+	com.glideapp.workflow.engine.WorkflowManager.queueActiveFlows(WorkflowManager.java:188)
+	com.glideapp.workflow.engine.WorkflowManager.queueAllFlows(WorkflowManager.java:69)
+	com.glideapp.workflow.engine.WorkflowEngine.runEngine(WorkflowEngine.java:106)
+	com.glide.policy.AScriptEngine.process(AScriptEngine.java:34)
+	com.glide.script.ScriptEngines.run(ScriptEngines.java:102)
+	com.glide.script.GlideRecord.runScriptsAndEngines(GlideRecord.java:1166)
+	com.glide.script.GlideRecord.insert(GlideRecord.java:4456)
+	com.glide.script.GlideRecord.insert(GlideRecord.java:4402)
+	com.glideapp.servicecatalog.valve.ProducerValve.produceItem(ProducerValve.java:256)
+	com.glideapp.servicecatalog.valve.ProducerValve.before(ProducerValve.java:89)
+	com.glideapp.servicecatalog.valve.ValveProcessor.beforeProcessor(ValveProcessor.java:47)
+	sun.reflect.GeneratedMethodAccessor2745.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.mozilla.javascript.MemberBox.invoke(MemberBox.java:138)
+	org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:292)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2577)
+	org.mozilla.javascript.optimizer.OptRuntime.callN(OptRuntime.java:52)
+	org.mozilla.javascript.gen._refname__2451._c_executeProcessor_1(&lt;refname&gt;:8)
+	org.mozilla.javascript.gen._refname__2451.call(&lt;refname&gt;)
+	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
+	org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:74)
+	org.mozilla.javascript.gen._refname__2451._c_script_0(&lt;refname&gt;:1)
+	org.mozilla.javascript.gen._refname__2451.call(&lt;refname&gt;)
+	org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:560)
+	org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3439)
+	org.mozilla.javascript.gen._refname__2451.call(&lt;refname&gt;)
+	org.mozilla.javascript.gen._refname__2451.exec(&lt;refname&gt;)
+	com.glide.script.ScriptEvaluator.execute(ScriptEvaluator.java:236)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:107)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:73)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:64)
+	com.glide.script.Evaluator.evaluateString(Evaluator.java:91)
+	com.glide.processors.ScriptedProcessor.process(ScriptedProcessor.java:70)
+	com.glide.processors.AProcessor.runProcessor(AProcessor.java:412)
+	com.glide.processors.AProcessor.processTransaction(AProcessor.java:187)
+	com.glide.processors.ProcessorRegistry.process(ProcessorRegistry.java:165)
+	com.glide.ui.GlideServletTransaction.process(GlideServletTransaction.java:49)
+	com.glide.sys.ServletTransaction.run(ServletTransaction.java:34)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	java.lang.Thread.run(Thread.java:745)
+</example_stack_trace>
+        <read_access>true</read_access>
+        <source_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</source_scope>
+        <sys_class_name>sys_scope_table_access</sys_class_name>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-04-05 23:33:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0ce5e9880f8e3e40e06c91dbe1050eab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user_grmember</sys_name>
+        <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+        <sys_update_name>sys_scope_table_access_0ce5e9880f8e3e40e06c91dbe1050eab</sys_update_name>
+        <sys_updated_by>dc28479</sys_updated_by>
+        <sys_updated_on>2017-04-05 23:33:23</sys_updated_on>
+        <table_name>sys_user_grmember</table_name>
+        <target_scope display_value="Global">global</target_scope>
+        <write_access>false</write_access>
+    </sys_scope_table_access>
+</record_update>

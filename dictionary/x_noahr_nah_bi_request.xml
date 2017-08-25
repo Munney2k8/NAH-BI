@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="sm_order" label="Nah Bi Request" max_length="40" name="x_noahr_nah_bi_request" sizeclass="1130" type="collection">
+        <element choice="3" default="-- none --" label="BI Request Type" max_length="32" name="bi_request_type" reference="u_bi_report_request_type" type="reference">
+            <choice/>
+        </element>
+        <element label="Converted from" max_length="32" name="converted_from" reference="sc_req_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Day of week" max_length="40" name="day_of_week" type="string">
+            <choice>
+                <element label="Monday" sequence="0" value="1"/>
+                <element label="Tuesday" sequence="1" value="2"/>
+                <element label="Wednesday" sequence="2" value="3"/>
+                <element label="Thursday" sequence="3" value="4"/>
+                <element label="Friday" sequence="4" value="5"/>
+                <element label="Saturday" sequence="5" value="6"/>
+                <element label="Sunday" sequence="6" value="7"/>
+            </choice>
+        </element>
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element label="Department director" max_length="32" name="department_director" reference="sys_user" type="reference"/>
+        <element label="Estimated Delivery" max_length="40" name="estimated_delivery" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="How often?" max_length="40" name="how_often" type="string">
+            <choice>
+                <element label="-- Select --" sequence="0" value="NULL_OVERRIDE"/>
+                <element label="Daily" sequence="1" value="Daily"/>
+                <element label="Weekly" sequence="2" value="Weekly"/>
+                <element label="Monthly" sequence="3" value="Monthly"/>
+                <element label="Quarterly" sequence="4" value="Quarterly"/>
+                <element label="Semi-Annually" sequence="5" value="Semi-Annually"/>
+                <element label="Annually" sequence="6" value="Annually"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Internal request type" mandatory="true" max_length="40" name="internal_request_type" type="string">
+            <choice>
+                <element label="-- Select --" sequence="0" value="NULL_OVERRIDE"/>
+                <element label="Dashboard" sequence="1" value="Dashboard"/>
+                <element label="Data collection tool" sequence="2" value="Data%20collection%20tool"/>
+                <element label="Data Request" sequence="2" value="Data Request"/>
+                <element label="Report" sequence="3" value="Report"/>
+            </choice>
+        </element>
+        <element label="Last run date" max_length="40" name="last_run_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" hint="The number of months that should pass before this report is ran again, e.g. 3" label="Monthly frequency" max_length="40" name="monthly_frequency" type="string"/>
+        <element label="NAH pillar alignment" max_length="32" name="nah_pillar_alignment" reference="u_nah_pillar_alignment" type="reference"/>
+        <element label="Next run date" max_length="40" name="next_run_date" type="glide_date"/>
+        <element label="Preferred completion date" max_length="40" name="preferred_completion_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Preferred Phone Number" max_length="100" name="preferred_phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason Intent Outcome" max_length="1000" name="reason_intent_outcome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Recurrence" max_length="40" name="recurrence" type="string">
+            <choice>
+                <element label="-- Select --" sequence="0" value="NULL_OVERRIDE"/>
+                <element label="Weekly" sequence="3" value="Weekly"/>
+                <element label="Monthly" sequence="4" value="Monthly"/>
+                <element label="Quarterly" sequence="5" value="Quarterly"/>
+            </choice>
+        </element>
+        <element label="Recurring" max_length="40" name="recurring" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Report name" max_length="100" name="report_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested modification" max_length="1000" name="requested_modification" type="string"/>
+        <element label="Requestor" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <element choice="3" label="Service area" max_length="32" name="service_area" reference="x_noahr_nah_bi_department" type="reference">
+            <choice/>
+        </element>
+        <element label="Service Line" max_length="32" name="service_line" reference="u_service_lines" type="reference"/>
+        <element label="Start date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Start recurring" max_length="40" name="start_recurring" type="boolean"/>
+        <element label="Vision alignment" max_length="32" name="vision_alignment" reference="u_nah_vision_alignment" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" hint="The number of weeks that should pass before this report is ran again, e.g. 3" label="Weekly frequency" max_length="40" name="weekly_frequency" type="string"/>
+    </element>
+</database>

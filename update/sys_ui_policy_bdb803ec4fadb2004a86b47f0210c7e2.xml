@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_noahr_nah_bi_request">bi_request_type=295c20f92b84e60003ff777219da150d^EQ<item display_table="u_bi_report_request_type" display_value="Access Existing" endquery="false" field="bi_request_type" goto="false" newquery="false" operator="=" or="false" value="295c20f92b84e60003ff777219da150d"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.setSectionDisplay("access_existing", false);
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setSectionDisplay("access_existing", true);
+}]]></script_true>
+        <set_values/>
+        <short_description>NAH - BI - Request Type is Access Existing</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>dc28479</sys_created_by>
+        <sys_created_on>2017-03-13 23:30:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>bdb803ec4fadb2004a86b47f0210c7e2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>NAH - BI - Request Type is Access Existing</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+        <sys_update_name>sys_ui_policy_bdb803ec4fadb2004a86b47f0210c7e2</sys_update_name>
+        <sys_updated_by>dc28479</sys_updated_by>
+        <sys_updated_on>2017-03-14 18:01:58</sys_updated_on>
+        <table>x_noahr_nah_bi_request</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

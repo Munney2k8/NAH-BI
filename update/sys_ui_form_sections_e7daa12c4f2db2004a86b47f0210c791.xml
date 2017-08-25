@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="e7daa12c4f2db2004a86b47f0210c791" sys_domain="global" table="x_noahr_nah_bi_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-03-13 16:40:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>abdaa12c4f2db2004a86b47f0210c791</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_noahr_nah_bi_task" name="x_noahr_nah_bi_task" sys_domain="global" view="Default view">e7daa12c4f2db2004a86b47f0210c791</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_noahr_nah_bi_task" sys_domain="global" view="Default view">67daa12c4f2db2004a86b47f0210c78e</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-03-13 16:40:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-03-14 22:36:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>77c5c8850f69ba00e06c91dbe1050eee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_noahr_nah_bi_task" name="x_noahr_nah_bi_task" sys_domain="global" view="Default view">e7daa12c4f2db2004a86b47f0210c791</sys_ui_form>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_noahr_nah_bi_task" sys_domain="global" view="Default view">73c5c8850f69ba00e06c91dbe1050eee</sys_ui_section>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-03-14 22:36:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_noahr_nah_bi_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>dc28479</sys_created_by>
+            <sys_created_on>2017-03-13 16:40:45</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>e7daa12c4f2db2004a86b47f0210c791</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_name>x_noahr_nah_bi_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NAH BI" source="x_noahr_nah_bi">5b8a29a84f2db2004a86b47f0210c72f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NAH BI">5b8a29a84f2db2004a86b47f0210c72f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_e7daa12c4f2db2004a86b47f0210c791</sys_update_name>
+            <sys_updated_by>dc28479</sys_updated_by>
+            <sys_updated_on>2017-03-14 22:36:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
